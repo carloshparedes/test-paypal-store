@@ -1,22 +1,20 @@
 {
-  "name": "platzi-store",
-  "version": "0.0.0",
-  "private": true,
+  "name": "platzi-store-main",
+  "version": "1.0.0",
+  "description": "test1",
+  "main": "app.js",
   "scripts": {
-    "setup": "sequelize db:migrate && sequelize db:seed:all",
+    "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node ./bin/www"
   },
+  "author": "",
+  "license": "ISC",
   "dependencies": {
-    "cookie-parser": "^1.4.4",
-    "debug": "~2.6.9",
-    "ejs": "~2.6.1",
-    "express": "^4.16.4",
-    "http-errors": "^1.6.3",
-    "morgan": "^1.9.1",
-    "sequelize": "^5.21.5",
-    "sqlite3": "^4.1.1"
-  },
-  "devDependencies": {
-    "sequelize-cli": "^5.5.1"
+    "cookie-parser": "^1.4.6",
+    "express": "^4.18.2",
+    "http-errors": "^2.0.0",
+    "morgan": "^1.10.0",
+    "sequelize": "^6.32.1",
+    "sqlite3": "^5.1.6"
   }
 }
